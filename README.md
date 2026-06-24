@@ -10,9 +10,9 @@ Ponente: **Ricardo Tovar** — AI Engineer en formación · Cofundador de [MART 
 
 Tres prácticas, cada una sobre la anterior:
 
-1. **Tu primera cadena** — modelos, prompts, LCEL y salida estructurada.
-2. **Tu primer agente** — `create_agent` con una herramienta.
-3. **Tu agente completo** — varias herramientas que resuelven un flujo de punta a punta.
+1. **Tu primer agente** — `create_agent`, herramientas y salida estructurada.
+2. **Tu agente investigador web** — búsqueda en internet + memoria.
+3. **Tu agente de valor** — lo construyes tú, conectado a un servicio real (Notion, Todoist o una API pública).
 
 ## Cómo seguir el taller
 

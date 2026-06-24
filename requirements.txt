@@ -1,5 +1,8 @@
 langchain>=1.0
 langchain-google-genai
 langchain-openai
+langchain-community
+ddgs
 python-dotenv
 pydantic
+requests
