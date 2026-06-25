@@ -1,4 +1,5 @@
 langchain>=1.0
+langgraph
 langchain-google-genai
 langchain-openai
 langchain-community

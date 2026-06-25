@@ -1,0 +1,19 @@
+[project]
+name = "taller-langchain-agentes"
+version = "0.1.0"
+description = "Agente investigador con LangChain — taller EurusConf 2026"
+requires-python = ">=3.10"
+dependencies = [
+    "langchain>=1.0",
+    "langgraph",
+    "langchain-google-genai",
+    "langchain-openai",
+    "langchain-community",
+    "ddgs",
+    "python-dotenv",
+    "pydantic",
+    "requests",
+]
+
+[tool.uv]
+package = false
