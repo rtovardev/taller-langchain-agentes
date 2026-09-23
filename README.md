@@ -28,6 +28,19 @@ Construir un agente investigador y entender herramientas, memoria, streaming y s
 2. Revisa los requisitos del brief; si una celda usa una API, proporciona tu propia clave sin guardarla en el notebook.
 3. Haz el ejercicio y comprueba el resultado con los criterios del resumen.
 
+## Continuación en un proyecto local
+
+El Colab cubre la primera parte. Para practicar la transición a un proyecto propio:
+
+1. Crea una carpeta vacía y ejecuta `uv init`.
+2. Añade las dependencias que usa tu versión del notebook con `uv add`.
+3. Mueve el `system_prompt`, las herramientas y la construcción del agente a módulos separados dentro de `src/agente/`.
+4. Crea un `main.py` que invoque el agente con una pregunta conocida.
+5. Guarda las claves como variables de entorno; no las subas al repositorio.
+6. Prueba una pregunta normal y otra ambigua. Registra qué esperabas y qué respondió el agente.
+
+Puedes extender el investigador con lectura de una página, conectar un servicio de tareas con permiso explícito o consultar una API pública. Empieza con una sola herramienta y un caso de aceptación verificable.
+
 ## Uso de los materiales
 
 El acceso público permite la consulta y el estudio personal en los términos de [AVISO-DE-USO.md](AVISO-DE-USO.md). La reutilización en cursos, charlas o publicaciones requiere autorización expresa.
